@@ -64,3 +64,27 @@ h1 {
 #startBtn:hover {
   background: #ff4b2b;
 }
+.btns{
+  display: flex;
+margin: 0 0 0 8px;
+}
+#leftbtn{
+  height: 34px;
+  width: 47px;
+  margin: 15px 10px 0px 0;
+
+}
+#rightbtn{
+  height: 34px;
+  width: 47px;
+  margin: 15px 10px 0px 0;
+
+}
+#leftbtn:hover{
+  background: #ff416c;
+  border: none;
+}
+#rightbtn:hover{
+  background: #ff416c;
+  border: none;
+}

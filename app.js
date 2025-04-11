@@ -2,8 +2,10 @@ const game = document.getElementById('game');
 const player = document.getElementById('player');
 const info = document.getElementById('info');
 const startBtn = document.getElementById('startBtn');
-
+const rightbtn = document.querySelector('#rightbtn');
+const leftbtn = document.querySelector('#leftbtn');
 const colors = ['red', 'green', 'blue','yellow'];
+
 let playerColorIndex = 0;
 let score = 0;
 let level = 1;
@@ -79,7 +81,15 @@ function startGame() {
   isPlaying = true;
   interval = setInterval(dropColor, 1000);
 }
+leftbtn.addEventListener('click', () => {
+  if (!isPlaying) return;
+  changePlayerColor('left');
+});
 
+rightbtn.addEventListener('click', () => {
+  if (!isPlaying) return;
+  changePlayerColor('right');
+});
 document.addEventListener('keydown', (event) => {
   if (!isPlaying) return;
   if (event.key === 'ArrowLeft') changePlayerColor('left');
