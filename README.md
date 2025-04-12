@@ -7,11 +7,14 @@
 ##  Game Preview
 
 Desktop view
-   ![Screenshot 2025-04-12 115147](https://github.com/user-attachments/assets/9fcc28f8-8a54-481a-97ef-fdb17b8b0276)
+![Screenshot 2025-04-12 115147](https://github.com/user-attachments/assets/dde62735-4b3b-457f-9aba-d2b44926ee42)
 
 
-  Phone view
----![WhatsApp Image 2025-04-12 at 11 53 46_37caf5ad](https://github.com/user-attachments/assets/4d9296c9-c596-4f7f-a166-17941bfb5419)
+Phone view
+
+[IMG_20250412_115332](https://github.com/user-attachments/assets/c68ab23b-ef9b-489c-9112-ebb9dd0e87f0)
+
+
 
 
 ##  How to Play
